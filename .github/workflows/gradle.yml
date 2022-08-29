@@ -54,4 +54,4 @@ jobs:
         aws s3 cp \
         --region ap-northeast-2 \
         --acl private \ 
-        ./springboot-deploy.zip s3://springboot-deploy/
+        ./springboot-deploy.zip s3://iting-deploy/
