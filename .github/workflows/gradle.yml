@@ -44,7 +44,7 @@ jobs:
       run: cp ./build/libs/*.jar ./deploy/
 
     - name: Make zip file
-      run: zip -r -qq -j ./springboot-intro-build.zip ./deploy
+      run: zip -r -qq -j ./springboot-deploy.zip ./deploy
 
     - name: Deliver to AWS S3
       env:
