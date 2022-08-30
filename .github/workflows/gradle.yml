@@ -66,7 +66,7 @@ jobs:
       run: |
         aws deploy create-deployment \
         --application-name springboot-deploy \
-        --deployment-group-name springboot-githubactions-group \
+        --deployment-group-name springboot-deploy-group \
         --file-exists-behavior OVERWRITE \
         --s3-location bucket=iting-deploy,bundleType=zip,key=springboot-deploy.zip \
         --region ap-northeast-2
